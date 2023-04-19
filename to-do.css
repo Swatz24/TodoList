@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .todo-grid-input{
+  display: grid;
+  grid-template-columns: 250px 250px 150px;
+  column-gap: 12px;
+  row-gap: 12px;
+  align-items: center;
+  font-size: 22px;
+}
+.todo-grid-input{
+  margin-bottom: 12px;
+  align-items: stretch;
+}
+
+.todo-input{
+  font-size: 22px;
+  padding: 10px;
+}
+
+.add-todo-button {
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.delete-todo-button {
+  background-color: darkred;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 25px;
+}
+
+.todo-li{
+  padding: 10px 5px;
+  list-style-type: square;
+}
+
+.liSpan{
+  margin-right: 15px;
+}

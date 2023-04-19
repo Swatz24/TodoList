@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do-List</title>
+  <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+  <p>To Do List</p>
+  <div class="todo-grid-input">
+  <input placeholder="to-do item" class = "js-name-input todo-input">
+  <input type="date" class="js-date-input todo-input" placeholder="Due Date and time">
+  <button class="add-todo-button">Add</button>
+  </div>
+
+  <!-- Creating a div to allow JS to add HTML elements to display the todoList once todo Items gets added.-->
+  <div class="todo-grid">
+    <ul class="js-todo-list">
+
+    </ul>
+  </div>
+
+  <script src="to-do.js"></script>
+</body>
+</html>
